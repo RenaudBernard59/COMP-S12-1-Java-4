@@ -5,7 +5,7 @@
 /*constructeur Scanner(InputStream source)
 la variable in de la classe InputStream permet de lire le clavier:*/
 
-public static final InputStream in;
+//public static final InputStream in;
 import java.util.Scanner;
 public class Essai {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Essai {
 
 ## Exemple 2: Découpage d'une chaîne de caractères en tokens
 ```Java
-constructeur Scanner(String)
+//constructeur Scanner(String)
 import java.util.Scanner;
     public class Essai {
         public static void main(String[] args) {
@@ -35,7 +35,7 @@ import java.util.Scanner;
 
 ## Exemple 3: Lecture dans un fichier
 ````Java
-constructeur Scanner(File)
+//constructeur Scanner(File)
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -53,3 +53,4 @@ public class Essai {
     }
 }
 ```
+

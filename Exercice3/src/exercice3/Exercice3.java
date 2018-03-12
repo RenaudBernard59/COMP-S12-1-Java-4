@@ -9,13 +9,26 @@ package exercice3;
  *
  * @author renob
  */
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class Exercice3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc;
+        try {
+            sc = new Scanner(new File("essai.txt"));
+            while (sc.hasNext()) {
+                System.out.println(sc.nextLine());}   
+            } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.err.println(e.getMessage());
+            }
+        
     }
     
 }
